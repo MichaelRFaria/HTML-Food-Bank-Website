@@ -12,6 +12,11 @@
     gap: 10vw;
 }
 
+#navbar * {
+    width: 15%;
+    text-align: center;
+}
+
 #bottom_section {
     display: flex;
     justify-content: center;
