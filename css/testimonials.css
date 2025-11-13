@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+#subtitle {
+    margin-top: 0px;
+}
+
 #navbar {
     display: flex;
     justify-content: center;
