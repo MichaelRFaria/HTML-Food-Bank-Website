@@ -5,10 +5,6 @@
     align-items: center;
 }
 
-#subtitle {
-    margin-top: 0px;
-}
-
 #navbar {
     display: flex;
     justify-content: center;
@@ -33,6 +29,19 @@
 
 #navbar a:hover {
     background-color:rgb(50, 50, 50);
+}
+
+#testimonials {
+    text-align: center;
+    margin: 0 5vw 0 5vw;
+}
+
+#testimonials div {
+    margin: 5vw 0 5vw 0;
+}
+
+#testimonials div p:first-child {
+    font-size: large;
 }
 
 #bottom_section {
