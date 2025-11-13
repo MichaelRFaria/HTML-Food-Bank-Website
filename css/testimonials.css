@@ -33,7 +33,7 @@
     text-align: center;
 }
 
-#bottom_section h1,h2,h3,h4,h5,h6 {
+#bottom_section :is(h1,h2,h3,h4,h5,h6) {
     margin-bottom: 0px;
 }
 
