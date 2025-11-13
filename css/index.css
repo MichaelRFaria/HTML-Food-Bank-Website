@@ -1,4 +1,4 @@
-#body h1,h2,h3,h4,h5,h6 {
+#body_tag h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 
@@ -21,11 +21,21 @@
     text-align: center;
 }
 
+#body_content {
+    margin: 0 5vw 0 5vw;
+}
+
+#our_story img {
+    float: left;
+    padding: 3vw;
+}
+
 #bottom_section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 10vw;
+    clear: left;
 }
 
 #bottom_section div {
