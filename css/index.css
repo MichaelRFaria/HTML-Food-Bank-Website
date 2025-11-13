@@ -11,3 +11,15 @@
     align-items: flex-start;
     gap: 10vw;
 }
+
+#bottom_section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10vw;
+}
+
+#bottom_section div {
+    width: 30%;
+    text-align: center;
+}
