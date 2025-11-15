@@ -45,6 +45,10 @@ body :is(h1, h2, h3, h4, h5, h6) {
   background-color: rgb(204, 173, 132);
 }
 
+#selected {
+    background-color: rgb(243, 190, 94);
+}
+
 /* testimonials.html and contact_us.html use this*/
 #subtitle {
   width: 30%;
