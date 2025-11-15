@@ -42,3 +42,16 @@
   display: flex;
   justify-content: center;
 }
+
+#invisible_images img {
+    width: 0;
+}
+
+#visible_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#visible_images img {
+    width: 20vw;
+}
