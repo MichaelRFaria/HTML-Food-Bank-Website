@@ -46,7 +46,7 @@ body :is(h1, h2, h3, h4, h5, h6) {
 }
 
 #selected {
-    background-color: rgb(243, 190, 94);
+  background-color: rgb(243, 190, 94);
 }
 
 /* testimonials.html and contact_us.html use this*/
@@ -96,4 +96,12 @@ body :is(h1, h2, h3, h4, h5, h6) {
 
 #bottom_section p {
   margin-top: 0.2vw;
+}
+
+.striked_through {
+  text-decoration: line-through;
+}
+
+.not_striked_through {
+  text-decoration: none;
 }
