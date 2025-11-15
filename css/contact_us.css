@@ -4,3 +4,41 @@
   background-color: rgb(211, 197, 180);
   font-size: large;
 }
+
+#input_form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10vw 0 10vw;
+}
+
+#top_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+
+  padding-bottom: 1vw;
+  border-bottom: 2px solid black;
+}
+
+#top_form input {
+  width: 100%;
+}
+
+#bottom_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+
+  padding-top: 1vw;
+}
+
+#bottom_form div textarea {
+  resize: none;
+  width: 100%;
+}
+
+#bottom_form div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
