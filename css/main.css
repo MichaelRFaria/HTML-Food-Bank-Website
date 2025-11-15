@@ -9,6 +9,15 @@ body :is(h1, h2, h3, h4, h5, h6) {
   text-align: center;
 }
 
+body img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+body img {
+    transition: transform 0.5s;
+}
+
 #title {
   display: flex;
   flex-direction: column;
