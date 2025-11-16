@@ -3,6 +3,17 @@ document.addEventListener('DOMContentLoaded', highlightOpeningTime());
 function highlightOpeningTime() {
     const timeNow = new Date();
 
+    // we do all of this here now, so that if a browser does not have javascript the opening times still appear properly
+    const message = document.getElementById("opening_message");
+    message.textContent = "We are open!"
+
+    const d1 = document.getElementById("weekdays");
+    const d2 = document.getElementById("saturday");
+    const d3 = document.getElementById("sunday");
+    d1.className = "striked_through";
+    d2.className = "striked_through";
+    d3.className = "striked_through";
+
     const today = timeNow.getDay();
     //console.log(timeNow.getDay());
 
