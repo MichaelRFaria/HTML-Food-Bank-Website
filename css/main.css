@@ -114,3 +114,29 @@ body img {
 .not_striked_through {
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  /* testimonials.html and contact_us.html use this*/
+  #subtitle {
+    width: 60%;
+    margin: 0 20% 0 20%;
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 0vw;
+  }
+
+  #bottom_section p {
+    margin: 0;
+  }
+
+  #bottom_section > div:is(:nth-child(1), :nth-child(2), :nth-child(3)) {
+    border: 0px;
+  }
+
+  #bottom_section p {
+    font-size: 10px;
+  }
+}

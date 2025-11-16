@@ -28,3 +28,11 @@
   height: 20vw;
   padding: 1vw;
 }
+
+@media screen and (max-width: 600px) {
+  .gallery_imgs img {
+    width: 30%;
+    height: 20vw;
+    padding: 0.2vh 0 0.2vh 0;
+  }
+}

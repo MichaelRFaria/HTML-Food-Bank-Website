@@ -55,3 +55,15 @@
 #visible_images img {
   width: 20vw;
 }
+
+@media screen and (max-width: 600px) {
+  #visible_images img {
+    width: 30%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  #body_content {
+      padding: 10vh 5vw 10vh 5vw;
+  }
+}
